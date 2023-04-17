@@ -1,3 +1,59 @@
 #+title: README
 
-oi
+* Orgmode config
+
+Copied from [[https://www.mfoot.com/blog/2015/11/17/using-org-mode-to-write-jekyll-blogs/][martin foot blogpost]], you can allow it to export itself
+
+<#+begin_src emacs-lisp :tangle yes
+;; Personal page
+(setq org-publish-project-alist
+      '(
+        ("org-marcosilva" ; Export my blog to the Jekyll format for ~jekyll build~
+         ;; Path to your org files.
+         :base-directory "~/src/personal/marcosilva.pt/org"
+         :base-extension "org"
+
+         ;; Path to your Jekyll project.
+         :publishing-directory "~/src/personal/marcosilva.pt/jekyll"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :html-extension "html"
+         :body-only t ;; Only export section between <body> </body>
+
+         :section-numbers nil
+         :with-toc nil
+         :auto-index nil
+         :auto-preamble nil
+         :body-only t
+         :auto-postamble nil
+         )
+
+        ("org-static-marcosilva"
+         :base-directory "~/src/personal/marcosilva.pt/org/"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif"
+         :publishing-directory "~/src/personal/marcosilva.pt/jekyll/"
+         :recursive t
+         :publishing-function org-publish-attachment
+         )
+
+        ("marcosilva.pt" :components (
+                                      "org-marcosilva"
+                                      "org-static-marcosilva"
+                                      )
+         )
+        ))
+
+
+(defun org-custom-link-img-follow (path)
+  (org-open-file-with-emacs
+   (format "../images/%s" path)))
+
+(defun org-custom-link-img-export (path desc format)
+  (cond
+   ((eq format 'html)
+    (format "<img src=\"/images/%s\" alt=\"%s\"/>" path desc))))
+
+(org-add-link-type "img" 'org-custom-link-img-follow 'org-custom-link-img-export)
+
+
+#+end_src
