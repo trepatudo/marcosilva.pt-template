@@ -1,0 +1,10 @@
+#+BEGIN_EXPORT html
+---
+layout: page
+title: /home
+permalink: /
+---
+#+END_EXPORT
+
+* Welcome
+Hello, blabla

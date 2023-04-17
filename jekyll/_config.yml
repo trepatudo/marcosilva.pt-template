@@ -3,9 +3,9 @@
 #google_analytics: UA-NNNNNNNN-N
 
 header_pages:
-  - index.md
-  - about.md
-  - blog.md
+  - index.html
+  - about.html
+  # - blog.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
