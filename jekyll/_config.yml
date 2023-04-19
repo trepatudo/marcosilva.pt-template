@@ -5,11 +5,12 @@
 header_pages:
   - index.html
   - about.html
+  - projects.html
   # - blog.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-#style: light # dark (default) or light
+style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:

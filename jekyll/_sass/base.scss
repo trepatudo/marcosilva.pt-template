@@ -131,3 +131,20 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+
+b > b {
+    display: inline-block;
+    min-width: 70px;
+}
+
+.outline-3 {
+    padding-left: 10px;
+}
+.outline-3 {
+    padding-left: 20px;
+}
+
+.outline-4 {
+    padding-left: 30px;
+}

@@ -1,0 +1,33 @@
+#+BEGIN_EXPORT html
+---
+layout: page
+title: /projects
+permalink: /projects/
+---
+#+END_EXPORT
+
+* Kratedrop.com
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+Online platform that offers a unique and engaging experience for gamers and collectors. The platform allows users to participate in a variety of events, including drops and auctions, to acquire rare and exclusive gaming items, such as skins, weapons, and accessories for the steam game PUBG.
+
+There were multiple sub-systems that were also done by me and shared with other projects:
+*** Provably Fair
+A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated. It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
+
+*** Steam Inventory Bot
+A Node.js bot that was able to manage Steam inventories for multiple accounts and seamlessly handle trades between users of the platform. The bot was designed to simplify the trading process and automate inventory management, providing users with a streamlined and efficient trading experience.
+It was mainly developed in Node.js using Steam API, and various trading libraries. I've also implemented advanced security measures to ensure that the system was fully secure and that multiple steam accounts were protected at all times.
+There were complex scenarios were we must handle generation of TOTP tokens and keep the different secrets for different accounts all in sync.
+Overall, this system has been highly successful and has provided users with a fast and reliable way to trade their Steam inventory items.
+It has been also reused in other projects.
+**  Eazy.GG
+**  Omerta v3
+**  Omerta v5
+**  MyKubo
+**  VueJobs
+**  SIP
+**  AprovA
