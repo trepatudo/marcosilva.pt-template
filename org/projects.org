@@ -6,15 +6,10 @@ permalink: /projects/
 ---
 #+END_EXPORT
 
-* Kratedrop.com
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
-
-Online platform that offers a unique and engaging experience for gamers and collectors. The platform allows users to participate in a variety of events, including drops and auctions, to acquire rare and exclusive gaming items, such as skins, weapons, and accessories for the steam game PUBG.
-
+* Libraries
 There were multiple sub-systems that were also done by me and shared with other projects:
+*** Laravel Redis Reliable
+Same as RedisBroadcaster from illuminate/broadcasting but allows a customization to assure at least 1 subscriber has received the event, otherwise adds it into a queue and send it once first user connects
 *** Provably Fair
 A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated. It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
 
@@ -24,10 +19,90 @@ It was mainly developed in Node.js using Steam API, and various trading librarie
 There were complex scenarios were we must handle generation of TOTP tokens and keep the different secrets for different accounts all in sync.
 Overall, this system has been highly successful and has provided users with a fast and reliable way to trade their Steam inventory items.
 It has been also reused in other projects.
-**  Eazy.GG
-**  Omerta v3
-**  Omerta v5
-**  MyKubo
-**  VueJobs
-**  SIP
-**  AprovA
+*** Match Crawler
+A bot to crawl game scores and livescores from multiple pages (football, basketball and eSports [Counter-Strike and League of Legends])
+* Contracted Projects
+**  SIP [2021-2022]
+**Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
+**Stack**: Symfony 5, Api Platform, React, Docker deployment
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+**  VueSchool [2018-2019]
+**Role**: Developer
+**Stack**: Laravel, Tailwind CSS, Laravel Nova
+**API**: Stripe, Paypal, Laravel Cashier
+**STATUS**: Consulting completed
+
+VueSchool is a learning platform for users that want to improve their skills in Vue.JS.
+I hired to implement subscription system (payments, account management, etc) and improve performance of the platform.
+
+**  HaugFitness [2018]
+**Role**: Solo Developer (Architecture, Development, Deployment)
+**Stack**: Laravel, Tailwind CSS, Laravel Nova
+**API**: Stripe API
+**STATUS**: Consulting completed
+
+Hired to implement a subscription management system and implementing automated payments via Stripe.
+
+**  Adductio Press [2011-2012]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+* Proprietary Projects
+Projects which I own(ed) a stake or created from my own funding
+**  AprovA [2018-Present]
+**Role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
+**Stack**: Symfony 5, Api Platform, Mercure, Kubernetes
+**STATUS**: Lead role without active development
+
+**  Omerta v5 [2014-Present]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Ozone (custom made framework PHP5), Knockout JS and Vue.JS, Redis, Node.JS
+**API**: Facebook, multiple payment providers,
+**STATUS**: Still active with over 10,000 users
+
+The full remake of a game
+
+**  Kratedrop.com [2017-2018]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+Online platform that offers a unique and engaging experience for gamers and collectors. The platform allows users to participate in a variety of events, including drops and auctions, to acquire rare and exclusive gaming items, such as skins, weapons, and accessories for the steam game PUBG.
+
+**  Eazy.GG [2016-2018]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Over 60,000+ users and *SOLD*
+
+**  MyKubo [2014-201]
+**Role**: Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: PayPal, SAGE systems, Internal Portuguese VAT systems, Portuguese SAFT systems
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+**  CanYuDo [2013-2018]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Co-founder then *SOLD*
+
+**  Omerta v3 [2011-2014]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+**  ejectTube [2011]
+**Role**: Concept to Execution (Architect, Development, Infrastructure)
+**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+* Personal and fun projects
+** suchbot [2014]
+A dogecoin IRC bot which would handle transfers, deposits and withdraws from dogecoin blockchain
+***
