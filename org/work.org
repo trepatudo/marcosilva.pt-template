@@ -1,28 +1,13 @@
 #+BEGIN_EXPORT html
 ---
 layout: page
-title: /projects
-permalink: /projects/
+title: /work
+permalink: /work/
 ---
 #+END_EXPORT
 
-* Libraries
-There were multiple sub-systems that were also done by me and shared with other projects:
-*** Laravel Redis Reliable
-Same as RedisBroadcaster from illuminate/broadcasting but allows a customization to assure at least 1 subscriber has received the event, otherwise adds it into a queue and send it once first user connects
-*** Provably Fair
-A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated. It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
-
-*** Steam Inventory Bot
-A Node.js bot that was able to manage Steam inventories for multiple accounts and seamlessly handle trades between users of the platform. The bot was designed to simplify the trading process and automate inventory management, providing users with a streamlined and efficient trading experience.
-It was mainly developed in Node.js using Steam API, and various trading libraries. I've also implemented advanced security measures to ensure that the system was fully secure and that multiple steam accounts were protected at all times.
-There were complex scenarios were we must handle generation of TOTP tokens and keep the different secrets for different accounts all in sync.
-Overall, this system has been highly successful and has provided users with a fast and reliable way to trade their Steam inventory items.
-It has been also reused in other projects.
-*** Match Crawler
-A bot to crawl game scores and livescores from multiple pages (football, basketball and eSports [Counter-Strike and League of Legends])
 * Contracted Projects
-**  SIP [2021-2022]
+**  SIP (Angola Government) [2021-2022]
 **Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
 **Stack**: Symfony 5, Api Platform, React, Docker deployment
 **STATUS**: Ran for couple months over 5000+ users and *SOLD*
@@ -49,6 +34,8 @@ Hired to implement a subscription management system and implementing automated p
 **Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
 **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
 **STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+
 
 * Proprietary Projects
 Projects which I own(ed) a stake or created from my own funding
@@ -102,7 +89,27 @@ Online platform that offers a unique and engaging experience for gamers and coll
 **Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
 **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
 **STATUS**: Ran for couple months over 5000+ users and *SOLD*
+
+
 * Personal and fun projects
 ** suchbot [2014]
 A dogecoin IRC bot which would handle transfers, deposits and withdraws from dogecoin blockchain
-***
+
+* Libraries
+There were multiple sub-systems that were also done by me and shared with other projects:
+
+** Laravel Redis Reliable
+Same as RedisBroadcaster from illuminate/broadcasting but allows a customization to assure at least 1 subscriber has received the event, otherwise adds it into a queue and send it once first user connects
+
+** Provably Fair
+A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated. It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
+
+** Steam Inventory Bot
+A Node.js bot that was able to manage Steam inventories for multiple accounts and seamlessly handle trades between users of the platform. The bot was designed to simplify the trading process and automate inventory management, providing users with a streamlined and efficient trading experience.
+It was mainly developed in Node.js using Steam API, and various trading libraries. I've also implemented advanced security measures to ensure that the system was fully secure and that multiple steam accounts were protected at all times.
+There were complex scenarios were we must handle generation of TOTP tokens and keep the different secrets for different accounts all in sync.
+Overall, this system has been highly successful and has provided users with a fast and reliable way to trade their Steam inventory items.
+It has been also reused in other projects.
+
+** Match Crawler
+A bot to crawl game scores and livescores from multiple pages (football, basketball and eSports [Counter-Strike and League of Legends])

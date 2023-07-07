@@ -1,0 +1,10 @@
+#+BEGIN_EXPORT html
+---
+layout: page
+title: /edu
+permalink: /edu/
+---
+#+END_EXPORT
+
+* Academic
+hey

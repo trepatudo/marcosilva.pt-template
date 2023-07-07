@@ -148,3 +148,25 @@ b > b {
 .outline-4 {
     padding-left: 30px;
 }
+.outline-5 {
+    padding-left: 40px;
+}
+
+.outline-3 {
+    h1,h2,h3,h4,h5 {
+        margin-left: -15px;
+    }
+}
+
+.outline-3 p, .outline-2 p {
+    margin-bottom: 0 !important;
+    margin-top: -16px;
+}
+
+.outline-text-3 {
+    padding-bottom: 5px;
+}
+
+main {
+    padding-left: 15px;
+}
