@@ -6,7 +6,25 @@ permalink: /work/
 ---
 #+END_EXPORT
 
+* Stack and Competences
+As someone who enjoys learning and applying knowledge in practical ways, I have developed various fun projects to test my education and  also completed paid jobs using multiple different stacks and languages.
+As a result, I have gained a diverse skill set and experience with multiple technologies.
+
+** Tools
+Git, Emacs, Bash Scripting
+** Langs
+**expert** PHP, JavaScript
+**advanced** Bash scripting,
+**forgotten** Perl, TCL, Java, Python
+(forgotten means I've developed/maintained full projects on it but recently didn't use it)
+** Frameworks
+Laravel(PHP), Symfony(PHP), Vue 2 and 3(JS), React(JS), Knockout(JS), Bootstrap (JS/CSS), SASS/LESS(CSS), Tailwind(CSS)
+** Sysadmin
+Kubernetes management, RHEL(CentOS), Ansible, MySQL Administration, Web stack (nginx, redis, haproxy, etc...), Graylog/ELK, Docker,
+
 * Contracted Projects
+Projects that I was paid to develop, maintain and architect without being part of the respective company
+
 **  SIP (Angola Government) [2021-2022]
 **Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
 **Stack**: Symfony 5, Api Platform, React, Docker deployment
@@ -36,9 +54,9 @@ Hired to implement a subscription management system and implementing automated p
 **STATUS**: Ran for couple months over 5000+ users and *SOLD*
 
 
-
 * Proprietary Projects
 Projects which I own(ed) a stake or created from my own funding
+
 **  AprovA [2018-Present]
 **Role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
 **Stack**: Symfony 5, Api Platform, Mercure, Kubernetes
@@ -103,7 +121,7 @@ Online platform that offers a unique and engaging experience for gamers and coll
 **STATUS**: Project merged with bigger company
 
 * Personal and fun projects
-** suchbot [2014]
+** suchbot [2013-2015]
 A dogecoin IRC bot which would handle transfers, deposits and withdraws from dogecoin blockchain
 
 ** Counter-Strike Gather System [2007-2010]
