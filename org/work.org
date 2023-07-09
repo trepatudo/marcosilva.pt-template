@@ -10,7 +10,7 @@ permalink: /work/
 **  SIP (Angola Government) [2021-2022]
 **Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
 **Stack**: Symfony 5, Api Platform, React, Docker deployment
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+**STATUS**: Consulting completed
 
 **  VueSchool [2018-2019]
 **Role**: Developer
@@ -24,7 +24,7 @@ I hired to implement subscription system (payments, account management, etc) and
 **  HaugFitness [2018]
 **Role**: Solo Developer (Architecture, Development, Deployment)
 **Stack**: Laravel, Tailwind CSS, Laravel Nova
-**API**: Stripe API
+**API**: Stripe
 **STATUS**: Consulting completed
 
 Hired to implement a subscription management system and implementing automated payments via Stripe.
@@ -90,10 +90,25 @@ Online platform that offers a unique and engaging experience for gamers and coll
 **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
 **STATUS**: Ran for couple months over 5000+ users and *SOLD*
 
+**  Counter-Strike Anti-Cheat [2009]
+**Role**: Improvements and mainteance
+**Stack**: C# GUI, C++ DLL injection
+**API**: WIN32
+**STATUS**: Project partnered with bigger Anti-Cheat company
+
+**  Counter-Strike Anti-Cheat [2009]
+**Role**: Improvements and mainteance
+**Stack**: C# GUI, C++ DLL injection
+**API**: WIN32
+**STATUS**: Project merged with bigger company
 
 * Personal and fun projects
 ** suchbot [2014]
 A dogecoin IRC bot which would handle transfers, deposits and withdraws from dogecoin blockchain
+
+** Counter-Strike Gather System [2007-2010]
+**Stack**: TCL, C++
+**API**: IRC, Eggdrop, Sourcemod
 
 * Libraries
 There were multiple sub-systems that were also done by me and shared with other projects:
