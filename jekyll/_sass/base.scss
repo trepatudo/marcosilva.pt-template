@@ -173,3 +173,13 @@ b > b {
 main {
     padding-left: 15px;
 }
+
+.explanation {
+    opacity: 0.75;
+    p {
+    white-space: normal !important;
+    text-align: justify !important;
+    margin-top: 0;
+    }
+
+}

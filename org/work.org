@@ -7,8 +7,10 @@ permalink: /work/
 #+END_EXPORT
 
 * Stack and Competences
+#+BEGIN_explanation
 As someone who enjoys learning and applying knowledge in practical ways, I have developed various fun projects to test my education and  also completed paid jobs using multiple different stacks and languages.
 As a result, I have gained a diverse skill set and experience with multiple technologies.
+#+END_explanation
 
 ** Tools
 Git, Emacs, Docker, LXC, Borg, Sentry
@@ -25,7 +27,9 @@ Git, Emacs, Docker, LXC, Borg, Sentry
 Kubernetes management, RHEL(CentOS/AlmaLinux), KVM/LXC, Ansible, MySQL(Percona) Administration, Web stack (nginx, redis, haproxy, etc...), Graylog/ELK, Mongo DB
 
 * Contracted Projects
+#+BEGIN_explanation
 Projects that I was paid to develop, maintain and architect without being part of the respective company
+#+END_explanation
 
 **  SIP (Angola Government) [2021-2022]
 **Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
@@ -58,6 +62,7 @@ Hired to implement a subscription management system and implementing automated p
 
 * Proprietary Projects
 Projects which I own(ed) a stake or created from my own funding
+
 
 **  AprovA [2018-Present]
 **Role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
