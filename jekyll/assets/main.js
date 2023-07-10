@@ -4,7 +4,7 @@
  */
 
 const linkSelector = document.getElementById("themeSelectorLink");
-const themes = ["dark", "lite", "hack"];
+const themes = ["lite", "dark", "hack"];
 
 function switchTheme() {
     let currentTheme = linkSelector.innerText;

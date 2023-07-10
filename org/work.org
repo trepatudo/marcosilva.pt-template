@@ -11,16 +11,18 @@ As someone who enjoys learning and applying knowledge in practical ways, I have 
 As a result, I have gained a diverse skill set and experience with multiple technologies.
 
 ** Tools
-Git, Emacs, Bash Scripting
+Git, Emacs, Docker, LXC, Borg, Sentry
 ** Langs
 **expert** PHP, JavaScript
 **advanced** Bash scripting,
 **forgotten** Perl, TCL, Java, Python
 (forgotten means I've developed/maintained full projects on it but recently didn't use it)
 ** Frameworks
-Laravel(PHP), Symfony(PHP), Vue 2 and 3(JS), React(JS), Knockout(JS), Bootstrap (JS/CSS), SASS/LESS(CSS), Tailwind(CSS)
+**php** Laravel, Symfony, Swoole
+**js** Vue 2 and 3, React, Knockout
+**other** Bootstrap, SASS/LESS, Tailwind
 ** Sysadmin
-Kubernetes management, RHEL(CentOS), Ansible, MySQL Administration, Web stack (nginx, redis, haproxy, etc...), Graylog/ELK, Docker,
+Kubernetes management, RHEL(CentOS/AlmaLinux), KVM/LXC, Ansible, MySQL(Percona) Administration, Web stack (nginx, redis, haproxy, etc...), Graylog/ELK, Mongo DB
 
 * Contracted Projects
 Projects that I was paid to develop, maintain and architect without being part of the respective company
