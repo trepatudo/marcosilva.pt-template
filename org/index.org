@@ -1,18 +1,19 @@
 #+BEGIN_EXPORT html
 ---
 layout: page
-title: /home
+title: /marco
 permalink: /
 ---
 #+END_EXPORT
 
-
+#+BEGIN_explanation
 I’m a highly skilled Full Stack Developer with a passion for building things from the ground up since I was ten years old.
 Today, the passion remains and goes along with a proven track record of successful projects
+#+END_explanation
 
 * Marco Silva [1990 – still present]
-**expertise**: Laravel; Symfony; Linux
-**track record**: PHP frameworks; server administration; social media platforms infrastructure planning and execution
-**strong suit**: creating successful projects from concept to delivery
-**personal skills**: leadership; problem-solving mindset; team-player
+**expertise**: Laravel; Symfony; Swoole, Linux (RHEL), Kubernetes
+**proven**: PHP frameworks; server administration; infrastructure architecture
+**strength**: creating successful projects from concept to delivery
+**skills**: leadership; problem-solving mindset; team-player
 **extra**: father of 2 kids and 1 dog

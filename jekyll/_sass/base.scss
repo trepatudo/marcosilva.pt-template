@@ -53,7 +53,6 @@ footer { margin-bottom: 20px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 .noborder { border: 0 !important; margin-bottom: 0 !important; }
-.menu.mainmenu { margin-bottom: 10px; }
 a.selected-theme { text-decoration: underline; }
 li.theme-selector { margin-left: 20px; opacity: 0.5; }
 /**
@@ -174,12 +173,14 @@ main {
     padding-left: 15px;
 }
 
+.outline-3 .explanation {
+    margin-top: 5px;
+}
+
 .explanation {
-    opacity: 0.75;
     p {
     white-space: normal !important;
     text-align: justify !important;
     margin-top: 0;
     }
-
 }
