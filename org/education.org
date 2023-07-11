@@ -2,7 +2,7 @@
 ---
 layout: page
 title: /edu
-permalink: /edu/
+permalink: /edu
 ---
 #+END_EXPORT
 

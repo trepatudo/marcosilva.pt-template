@@ -2,7 +2,7 @@
 ---
 layout: page
 title: /work
-permalink: /work/
+permalink: /work
 ---
 #+END_EXPORT
 
@@ -13,14 +13,15 @@ As a result, I have gained a diverse skill set and experience with multiple tech
 
 * Competences
 **  Langs
-**expert** PHP, JavaScript
-**advanced** Bash scripting
-**forgotten** Perl, TCL, Java, Python
+- **expert** PHP, JavaScript
+- **advanced** Bash scripting
+- **forgotten** Perl, TCL, Java, Python
 (forgotten means I've developed/maintained full projects on it but recently didn't use it)
 **  Frameworks
-**php** Laravel 3 to 10, Symfony 2 to 6, (Open)SwoolE
-**js** Vue 2 and 3(expert), React, Knockout(expert)
-**other** Bootstrap, SASS/LESS, Tailwind
+- **php** Laravel 3 to 10, Symfony 2 to 6, (Open)SwoolE
+- **js** Vue 2 and 3(expert), React, Knockout(expert)
+- **other** Bootstrap, SASS/LESS, Tailwind
+- **extra** Laravel Nova, Laravel Cashier, Mercure, Laravel Octane
 **  Sysadmin
 Kubernetes management, RHEL(CentOS/AlmaLinux), KVM/LXC, Ansible, MySQL(Percona) Administration, Web stack (nginx, redis, haproxy, etc...), Graylog/ELK, MongoDB
 **  Tools
@@ -28,76 +29,128 @@ Git, Emacs, Docker, LXC, Borg, Sentry
 
 * Projects
 **  AprovA [2018-Present]
-**Role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
-**Stack**: Symfony 5, Api Platform, Mercure, Kubernetes
-**STATUS**: Lead role without active development
+- **type**: Stakeholder
+- **role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
+- **stack**: Symfony 5 and 6, API Platform, Mercure, Kubernetes
+- **status**: Lead role without active development
+#+BEGIN_explanation
+  A social training platform, we bring together providers and consumers of (VAT-exempt) vocational education.
+  Technically, one of my most complex projects. It runs over 7 different instances of Symfony services.
+#+END_explanation
 
 **  Omerta v5 [2014-Present]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Ozone (custom made framework PHP5), Knockout JS and Vue.JS, Redis, Node.JS
-**API**: Facebook, multiple payment providers,
-**STATUS**: Still active with over 10,000 users
-
-The full remake of a game
+- **type**: Stakeholder
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Ozone (custom made framework PHP5), Knockout JS and Vue.JS, Redis, Node.JS
+- **API**: Google SDK, Facebook, multiple payment providers, Socket.IO, etc...
+- **status**: Still active with over 10,000 users, maintenance on request only
+#+BEGIN_explanation
+Omerta is a MMORPG browser game where players role play as 1930s gangsters.
+The v5 was a major upgrade into new technologies (Redis caching, real-time improvements) and a complete new front-end to be more modular and fitting of the new real-time systems.
+This was a solo work that took over 1 year and half to complete.
+#+END_explanation
 
 **  SIP (Angola Government) [2021-2022]
-**Role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
-**Stack**: Symfony 5, Api Platform, React, Docker deployment
-**STATUS**: Consulting completed
+- **type**: Consultant
+- **role**: Lead Engineer and Lead Devops (Backend architecture, Core development, Infrastructure)
+- **stack**: Symfony 5, API Platform, React, Docker deployment
+- **type**: consulting work
+- **status**: Consulting completed
+#+BEGIN_explanation
+SIP (Sistema de Informação e Planeamento) is a platform used by the Angola government to manage the country development (from budget to execution)
+As the main architect and lead developer I've implemented strict code rules and a CI/CD system in place.
+Was also responsible for the production deployment and the automated deploy systems.
+#+END_explanation
 
 **  VueSchool [2018-2019]
-**Role**: Developer
-**Stack**: Laravel, Tailwind CSS, Laravel Nova
-**API**: Stripe, Paypal, Laravel Cashier
-**STATUS**: Consulting completed
-
+- **type**: Consultant
+- **role**: Developer
+- **stack**: Laravel, Tailwind CSS, Laravel Nova
+- **API**: Stripe, Paypal, Laravel Cashier
+- **status**: Consulting completed
+#+BEGIN_explanation
 VueSchool is a learning platform for users that want to improve their skills in Vue.JS.
-I hired to implement subscription system (payments, account management, etc) and improve performance of the platform.
+I was hired to implement subscription system (payments, account management, etc) and improve performance of the platform.
+#+END_explanation
 
 **  HaugFitness [2018]
-**Role**: Solo Developer (Architecture, Development, Deployment)
-**Stack**: Laravel, Tailwind CSS, Laravel Nova
-**API**: Stripe
-**STATUS**: Consulting completed
-
-Hired to implement a subscription management system and implementing automated payments via Stripe.
-
-**  Adductio Press [2011-2012]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+- **type**: Consultant
+- **role**: Solo Developer (Architecture, Development, Deployment)
+- **stack**: Laravel, Tailwind CSS, Laravel Nova
+- **API**: Stripe
+- **status**: Consulting completed
+#+BEGIN_explanation
+Personal trainer management system including private plans and general plans.
+Implemented Laravel Nova with subscription management system and implementing automated payments via Stripe.
+#+END_explanation
 
 **  Kratedrop.com [2017-2018]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+- **type**: Solo stakeholder
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API, Laravel Echo
+- **status**: Ran for couple months over 5000+ users and *SOLD*
 #+BEGIN_explanation
-Online platform that offers a unique and engaging experience for gamers and collectors. The platform allows users to participate in a variety of events, including drops and auctions, to acquire rare and exclusive gaming items, such as skins, weapons, and accessories for the steam game PUBG.
+A [[https://pubg.fandom.com/wiki/Crates/PC][PUBG Crate]] site, where players could gamble into getting specific items for a low price, the platform used a provably-fair system to make sure the random algorithm was not tampered with.
 #+END_explanation
 
 **  Eazy.GG [2016-2018]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Over 60,000+ users and *SOLD*
+- **type**: Solo stakeholder
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API, Laravel Echo
+- **status**: Over 60,000+ users and *SOLD*
 #+BEGIN_explanation
 #+END_explanation
 
 **  MyKubo [2014-201]
-**Role**: Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: PayPal, SAGE systems, Internal Portuguese VAT systems, Portuguese SAFT systems
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+- **role**: Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: PayPal, SAGE systems, Internal Portuguese VAT systems, Portuguese SAFT systems
+- **status**: Ran for couple months over 5000+ users and *SOLD*
+#+BEGIN_explanation
+#+END_explanation
+
+**  HelperFirst [2013-2018]
+- **type**: Consultant
+- **role**: Maintainer, Infrastructure
+- **stack**: Laravel, AWS
+- **API**: Laravel Socialite, AWS
+- **status**: Consulting completed
+#+BEGIN_explanation
+HelperFirst is an online platform working to promote fair practices and advance foreign domestic workers' living and working conditions.
+Maintained the platform and took care of it's infrastructure.
+#+END_explanation
+
+**  CanYuDo Browser Extension [2013-2018]
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Co-founder then *SOLD*
+#+BEGIN_explanation
+#+END_explanation
+
+**  CanYuDo Browser Extension [2013-2018]
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Co-founder then *SOLD*
+#+BEGIN_explanation
+#+END_explanation
+
+**  CanYuDo ICO [2013-2018]
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Co-founder then *SOLD*
 #+BEGIN_explanation
 #+END_explanation
 
 **  CanYuDo [2013-2018]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Co-founder then *SOLD*
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Co-founder then *SOLD*
 #+BEGIN_explanation
 #+END_explanation
 
@@ -107,42 +160,49 @@ A dogecoin IRC bot which would handle transfers, deposits and withdraws from dog
 #+END_explanation
 
 **  Omerta v3 [2011-2014]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Ran for couple months over 5000+ users and *SOLD*
 #+BEGIN_explanation
 #+END_explanation
+
+**  Adductio Press [2011-2012]
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Ran for couple months over 5000+ users and *SOLD*
 
 **  ejectTube [2011]
-**Role**: Concept to Execution (Architect, Development, Infrastructure)
-**Stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
-**API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
-**STATUS**: Ran for couple months over 5000+ users and *SOLD*
+- **role**: Concept to Execution (Architect, Development, Infrastructure)
+- **stack**: Laravel 5.5 (PHP7), Laravel Echo, Vue.JS 2, SASS
+- **API**: Bitcoin RPC, Ethereum RPC, Steam API, Stripe API
+- **status**: Ran for couple months over 5000+ users and *SOLD*
 #+BEGIN_explanation
 #+END_explanation
 
 **  Counter-Strike Anti-Cheat [2009]
-**Role**: Improvements and mainteance
-**Stack**: C# GUI, C++ DLL injection
-**API**: WIN32
-**STATUS**: Project partnered with bigger Anti-Cheat company
+- **role**: Improvements and mainteance
+- **stack**: C# GUI, C++ DLL injection
+- **API**: WIN32
+- **status**: Project partnered with bigger Anti-Cheat company
 #+BEGIN_explanation
 #+END_explanation
 
 **  Counter-Strike Anti-Cheat [2009]
-**Role**: Improvements and mainteance
-**Stack**: C# GUI, C++ DLL injection
-**API**: WIN32
-**STATUS**: Project merged with bigger company
+- **role**: Improvements and mainteance
+- **stack**: C# GUI, C++ DLL injection
+- **API**: WIN32
+- **status**: Project merged with bigger company
 #+BEGIN_explanation
 #+END_explanation
 
 **  Counter-Strike Gather System [2007-2010]
-**Stack**: TCL, C++
-**API**: IRC, Eggdrop, Sourcemod
+- **stack**: TCL, C++
+- **API**: IRC, Eggdrop, Sourcemod
 #+BEGIN_explanation
 #+END_explanation
+
 
 * Libraries
 #+BEGIN_explanation
@@ -154,7 +214,8 @@ Same as RedisBroadcaster from illuminate/broadcasting but allows a customization
 #+END_explanation
 **  Provably Fair
 #+BEGIN_explanation
-A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated. It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
+A provably fair system is an algorithm or protocol used in online games and gambling platforms to ensure that the game outcomes are fair and transparent. The system generates a random number using a cryptographic algorithm that cannot be predicted or manipulated. This random number is provided to the player before the game starts, along with a hash or digital fingerprint. Once the game is complete, the system generates another hash and compares it with the hash provided to the player. If they match, the player can be confident that the game was fair and the outcome was not manipulated.
+It is an essential feature for any reputable online gaming or gambling platform, providing players with complete transparency and peace of mind.
 #+END_explanation
 
 **  Steam Inventory Bot
@@ -168,5 +229,11 @@ It has been also reused in other projects.
 
 **  Match Crawler
 #+BEGIN_explanation
-A bot to crawl game scores and livescores from multiple pages (football, basketball and eSports [Counter-Strike and League of Legends])
+A bot to crawl game scores and livescores from multiple pages (football, basketball and eSports)
+#+END_explanation
+
+**  General Crawler
+#+BEGIN_explanation
+A crawler system which used threads (forks/pthreads) and parsed multiple pages at once to store information.
+Used in multiple projects.
 #+END_explanation

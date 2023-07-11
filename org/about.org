@@ -2,7 +2,7 @@
 ---
 layout: page
 title: /about
-permalink: /about/
+permalink: /about
 ---
 #+END_EXPORT
 
