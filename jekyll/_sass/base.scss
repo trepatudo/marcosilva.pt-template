@@ -25,7 +25,7 @@ a:hover, a.active { color: var(--background-color) !important; background-color:
  * Layout
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
-p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
+// p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
 footer { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
@@ -42,7 +42,7 @@ footer { margin-bottom: 20px; }
  */
 :not(.menu) > ul { list-style: none;  padding-left: 0; }
 :not(.menu) > ul { list-style-type: none; }
-:not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
+:not(.menu) > ul > li:before { content: "";  /* margin-right: 9px; */ }
 
 /**
  * Header/Navigation
@@ -140,29 +140,29 @@ b > b {
     min-width: 70px;
 }
 
-.outline-3 {
-    padding-left: 10px;
-}
-.outline-3 {
-    padding-left: 20px;
-}
+// .outline-3 {
+//     padding-left: 10px;
+// }
+// .outline-3 {
+//     padding-left: 20px;
+// }
 
-.outline-4 {
-    padding-left: 30px;
-}
-.outline-5 {
-    padding-left: 40px;
-}
+// .outline-4 {
+//     padding-left: 30px;
+// }
+// .outline-5 {
+//     padding-left: 40px;
+// }
 
-.outline-3 {
-    h1,h2,h3,h4,h5 {
-        margin-left: -15px;
-    }
-}
+// .outline-3 {
+//     h1,h2,h3,h4,h5 {
+//         margin-left: -15px;
+//     }
+// }
 
 .outline-3 p, .outline-2 p {
     margin-bottom: 0 !important;
-    margin-top: -16px;
+    // margin-top: -16px;
 }
 
 .outline-text-3 {
@@ -170,17 +170,16 @@ b > b {
 }
 
 main {
-    padding-left: 15px;
+    // padding-left: 15px;
 }
 
-.outline-3 .explanation {
+.outline-2 .explanation, .outline-3 .explanation {
     margin-top: 5px;
 }
 
 .explanation {
     p {
-    white-space: normal !important;
     text-align: justify !important;
-    margin-top: 0;
+    text-justify: inter-word;
     }
 }

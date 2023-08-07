@@ -10,18 +10,17 @@ permalink: /edu
 
 * Academic
 ** FCT, University, Informatic Enginner [2008-2011]
-**place** Faculdade de Ciências e Tecnologia, Almada, Portugal
-**awards** Paid scholarship to develop internal university system
-**status** Incomplete
+- **place** Faculdade de Ciências e Tecnologia, Almada, Portugal
+- **awards** Paid scholarship to develop internal university system
+- **status** Incomplete
 #+BEGIN_explanation
-I left university after my 3 rd year when of my personal projects was purchased by Omerta company, in the end, they decided to offer me a full time offer which I did not want to miss.
-I still plan to go back to university in my older times as a personal achievement.
+My university experience was three years in the making when one of my personal projects was purchased by a bigger company. During the acquisition process I ended up being offered an irrecusable full-time job. I have it in my bucket list to go back to university and finish the course.
 #+END_explanation
 
 ** João de Barros, High School [2005-2008]
-**place** Agrupamento de Escolas João de Barros, Corroios, Portugal
-**awards** Best student of informatics course award
-**status** Complete
+- **place** Agrupamento de Escolas João de Barros, Corroios, Portugal
+- **awards** Best student of informatics course award
+- **status** Complete
 #+BEGIN_explanation
-By the time I was already coding for 5 years and had a deep understanding of fundamentals of computers. As last year project I coded a remote solution for cyber coffees to have full control of their own machines using VB6 and PHP/MySQL. This project made me win the award of best student of school (informatics courses) and a prize of 500EUR.
+I was already coding for 5 years when my high-school experience started. Benefiting from an already deep understanding of the computers’ fundamentals, I coded a solution that provided cybercafés the ability to remotely control their own machines (using VB6 and PHP/MySQL). This school project granted me The Best Informatics Student award (and a 500EUR prizemoney).
 #+END_explanation

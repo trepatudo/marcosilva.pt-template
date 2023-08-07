@@ -6,9 +6,9 @@ permalink: /work
 ---
 #+END_EXPORT
 
+
 #+BEGIN_explanation
-As someone who enjoys learning and applying knowledge in practical ways, I have developed various fun projects to test my education and  also completed paid jobs using multiple different stacks and languages.
-As a result, I have gained a diverse skill set and experience with multiple technologies.
+Learning first and pushing that knowledge to its limits later is an accurate way to describe how I conduct myself either in various fun personal projects or on professional environments. As a result, I have gained a diverse skill set and experience with multiple stacks and languages.
 #+END_explanation
 
 * Competences
@@ -30,7 +30,8 @@ Git, Emacs, Docker, LXC, Borg, Sentry
 * Projects
 **  AprovA [2018-Present]
 - **type**: Stakeholder
-- **role**: Lead Engineer and Lead Devops (Architect, Core Development, Infrastructure)
+- **role**: Lead Engineer and Lead Devops
+- **extra**: Architect, Core Development, Infrastructure
 - **stack**: Symfony 5 and 6, API Platform, Mercure, Kubernetes
 - **status**: Lead role without active development
 #+BEGIN_explanation
