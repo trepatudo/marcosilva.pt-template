@@ -18,7 +18,7 @@ Learning first and pushing that knowledge to its limits later is an accurate way
 - **forgotten** Perl, TCL, Java, Python
 (forgotten means I've developed/maintained full projects on it but recently didn't use it)
 **  Frameworks
-- **php** Laravel 3 to 10, Symfony 2 to 6, (Open)SwoolE
+- **php** Laravel 3 to 10, Symfony 2 to 6, (Open)Swoole
 - **js** Vue 2 and 3(expert), React, Knockout(expert)
 - **other** Bootstrap, SASS/LESS, Tailwind
 - **extra** Laravel Nova, Laravel Cashier, Mercure, Laravel Octane
@@ -42,7 +42,8 @@ Git, Emacs, Docker, LXC, Borg, Sentry
 **  Omerta v5 [2014-Present]
 - **type**: Stakeholder
 - **role**: Concept to Execution (Architect, Development, Infrastructure)
-- **stack**: Ozone (custom made framework PHP5), Knockout JS and Vue.JS, Redis, Node.JS
+- **extra**: Custom made framework (Ozone)
+- **stack**: Ozone, Knockout JS and Vue.JS, Redis, Node.JS
 - **API**: Google SDK, Facebook, multiple payment providers, Socket.IO, etc...
 - **status**: Still active with over 10,000 users, maintenance on request only
 #+BEGIN_explanation
