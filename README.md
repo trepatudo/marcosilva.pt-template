@@ -1,67 +1,8 @@
-# jekyll-theme-console
+## About
 
-A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
+Template forked initially from https://github.com/b2a3e8/jekyll-theme-console 
 
-<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenrec-dark.gif" width="550" title="Screenshot">
-
-## Demo
-
-[dark style](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-dark)):
-
-[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-dark.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/)
-
-
-[light style](https://b2a3e8.github.io/jekyll-theme-console-demo-light/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-light)):
-
-[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-light.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-light/)
-
-
-[hacker style](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-hacker)):
-
-[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-hacker.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
-
-
-## Installation
-
-First, follow the steps in [this Quickstart Guide](https://jekyllrb.com/docs/) if you're starting with Jekyll from scratch. Skip this if you already have an existing jekyll project.
-
-**_You can also use the [demo site's source code](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) as template for an easy start._**
-
-### Remote theme method for GitHub Pages
-
-Use this method for sites hosted with GitHub Pages only. To install:
-
-1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
-
-   ```yaml
-   remote_theme: b2a3e8/jekyll-theme-console
-   ```
-
-### Gem-based method
-
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
-
-This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
-
-1. Add this line to your Jekyll site's `Gemfile`:
-
-   ```ruby
-   gem "jekyll-theme-console"
-   ```
-
-2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
-
-   ```bash
-   bundle
-   ```
-
-3. Set `theme` in your project's Jekyll `_config.yml` file:
-
-   ```yaml
-   theme: jekyll-theme-console
-   ```
-
-To update the theme run `bundle update`.
+I've really liked the template and adapted it a bit, added an live theme changer etc
 
 ## Usage
 
